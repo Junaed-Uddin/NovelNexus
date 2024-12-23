@@ -1,0 +1,25 @@
+.swiper-slide {
+  width: 400px;
+  height: 340px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: scale(0.9);
+  opacity: 0.7;
+
+}
+
+.swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+  font-weight: 500;
+}
+
+
+/* responsive  */
+@media only screen and (max-width: 411px) {
+  .swiper-slide {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+  }
+}

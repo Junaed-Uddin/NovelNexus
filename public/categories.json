@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "category_name": "Fiction",
+      "category_image": "https://i.ibb.co.com/4gMstWg/c1.jpg",
+      "availability": "In Stock",
+      "description": "Fiction books contain stories created from the imagination of the author. These books can be based on real events but with fictionalized details."
+    },
+    {
+      "id": 2,
+      "category_name": "Romance",
+      "category_image": "https://i.ibb.co.com/j5FdGPk/c2.jpg",
+      "availability": "Limited Stock",
+      "description": "Romance novels focus on love stories and relationships, often with emotional and heartfelt narratives."
+    },
+    {
+      "id": 3,
+      "category_name": "Science Fiction",
+      "category_image": "https://i.ibb.co.com/Smft59g/c3.jpg",
+      "availability": "Available",
+      "description": "Science Fiction books explore futuristic concepts, advanced technologies, and imaginative worlds, often questioning the role of humanity."
+    },
+    {
+      "id": 4,
+      "category_name": "Fantasy",
+      "category_image": "https://i.ibb.co.com/5THNb1C/c4.jpg",
+      "availability": "In Stock",
+      "description": "Fantasy books transport readers to magical worlds filled with mythical creatures, epic quests, and fantastical elements."
+    },
+    {
+      "id": 5,
+      "category_name": "Non-fiction",
+      "category_image": "https://i.ibb.co.com/F6kMdSn/c5.jpg",
+      "availability": "Available",
+      "description": "Non-fiction books are based on factual information and real events, offering insights into history, biographies, and self-improvement."
+    },
+    {
+      "id": 6,
+      "category_name": "Mystery & Thriller",
+      "category_image": "https://i.ibb.co.com/jbHFBFC/c6.jpg",
+      "availability": "Limited Stock",
+      "description": "Mystery and Thriller books keep readers on the edge of their seats with gripping stories filled with suspense, crime, and unexpected twists."
+    }
+  ]
+  

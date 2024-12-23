@@ -1,0 +1,976 @@
+{
+    "books": [
+        {
+            "bookId": "101",
+            "bookName": "The Great Escape",
+            "author": "John Albright",
+            "image": "https://i.ibb.co.com/nCMhn6b/101.jpg",
+            "review": "'The Great Escape' is an exhilarating tale of resilience and hope, chronicling the journey of a protagonist determined to overcome insurmountable odds. The story is set against a backdrop of adversity, where every challenge faced by the lead character reveals new depths of courage and determination. Albright's narrative style is both engaging and emotionally resonant, drawing readers into a world of suspense and high stakes. The vivid descriptions of the environment and the intricacies of the character's psyche create an immersive experience. Themes of human perseverance and the pursuit of freedom are explored with sensitivity and depth, making this book not just a thrilling read but also an inspiring one. By the time the last page is turned, 'The Great Escape' leaves a lasting impression of the indomitable human spirit.",
+            "totalPages": 342,
+            "rating": 4.5,
+            "category": "Fiction",
+            "tags": [
+                "Drama",
+                "Inspirational",
+                "Adventure"
+            ],
+            "publisher": "HarperCollins",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "102",
+            "bookName": "The Untold Truth",
+            "author": "Emily Davis",
+            "image": "https://i.ibb.co.com/z5Pk9xC/102.jpg",
+            "review": "'The Untold Truth' dives deep into the complexities of societal norms and hidden secrets, weaving a narrative that is both thought-provoking and emotionally charged. Emily Davis masterfully constructs a world where personal struggles and societal expectations collide, leading to moments of profound realization for the characters. The plot is filled with unexpected twists that keep the reader engrossed, while the dialogues are poignant and reflective. Davis's ability to explore human emotions with authenticity adds a layer of depth to the story. The book challenges readers to question their perceptions of truth and morality, making it a compelling and unforgettable read.",
+            "totalPages": 288,
+            "rating": 4.7,
+            "category": "Fiction",
+            "tags": [
+                "Philosophical",
+                "Emotional",
+                "Reflective"
+            ],
+            "publisher": "Penguin Random House",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "103",
+            "bookName": "Breaking Free",
+            "author": "James Carter",
+            "image": "https://i.ibb.co.com/274HgFf/103.jpg",
+            "review": "'Breaking Free' is a powerful narrative of self-discovery and the courage it takes to follow one's dreams. James Carter captures the essence of personal growth through the lens of a protagonist trapped by societal expectations and personal fears. The book beautifully portrays the journey from hesitation to empowerment, with moments of introspection that resonate deeply with readers. Carter's writing is evocative, painting vivid scenes that bring the story to life. The supporting characters are equally well-developed, adding depth and context to the protagonist's transformation. This book serves as a reminder that it is never too late to embrace change and pursue one's true calling.",
+            "totalPages": 310,
+            "rating": 4.6,
+            "category": "Fiction",
+            "tags": [
+                "Self-Discovery",
+                "Inspirational",
+                "Motivational"
+            ],
+            "publisher": "Macmillan Publishers",
+            "yearOfPublishing": 2019,
+            "bestSeller": true
+        },
+        {
+            "bookId": "104",
+            "bookName": "The Silent Witness",
+            "author": "Linda Greene",
+            "image": "https://i.ibb.co.com/r6CtFMx/104.jpg",
+            "review": "'The Silent Witness' is a gripping tale of mystery and morality, revolving around a character whose silence hides a dark secret. Linda Greene expertly crafts a narrative that intertwines suspense with profound ethical dilemmas, leaving readers questioning their own judgments. The intricate plot unfolds gradually, with each revelation adding a new layer of complexity. Greene's attention to detail brings the settings and characters to life, immersing the reader in a world filled with tension and intrigue. The book's exploration of themes such as justice and accountability adds depth to its thrilling narrative, making it a standout in contemporary fiction.",
+            "totalPages": 400,
+            "rating": 4.8,
+            "category": "Fiction",
+            "tags": [
+                "Mystery",
+                "Drama",
+                "Suspense"
+            ],
+            "publisher": "Simon & Schuster",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "105",
+            "bookName": "Shadows of the Past",
+            "author": "Rebecca Moore",
+            "image": "https://i.ibb.co.com/R7N10vx/105.jpg",
+            "review": "'Shadows of the Past' delves into the intricate tapestry of memory and loss, offering readers a poignant journey through the human experience. Rebecca Moore's lyrical prose captures the fragility and resilience of the human spirit, as the protagonist confronts buried secrets and unresolved grief. The narrative is enriched by unexpected twists that keep the reader engaged, while the emotional depth of the story resonates long after the final page. Themes of redemption and forgiveness are skillfully woven into the plot, making it a moving and thought-provoking read for anyone who has grappled with the shadows of their own past.",
+            "totalPages": 350,
+            "rating": 4.9,
+            "category": "Fiction",
+            "tags": [
+                "Psychological",
+                "Drama",
+                "Emotional"
+            ],
+            "publisher": "Hachette Book Group",
+            "yearOfPublishing": 2018,
+            "bestSeller": false
+        },
+        {
+            "bookId": "106",
+            "bookName": "The Hidden Agenda",
+            "author": "Michael Turner",
+            "image": "https://i.ibb.co.com/DCrNQC7/106.jpg",
+            "review": "'The Hidden Agenda' is a political thriller that delves into the murky waters of power, secrets, and betrayal. Michael Turner crafts a fast-paced narrative filled with twists that keep the reader guessing until the very end. The protagonist's journey through a web of deception is both thrilling and thought-provoking, highlighting the ethical dilemmas faced in the pursuit of truth. Turner's sharp prose and complex characters bring the story to life, making it a compelling read for fans of political intrigue. The book's exploration of themes such as corruption and accountability adds depth to its suspenseful plot.",
+            "totalPages": 298,
+            "rating": 4.4,
+            "category": "Fiction",
+            "tags": [
+                "Thriller",
+                "Political",
+                "Intrigue"
+            ],
+            "publisher": "Random House",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "107",
+            "bookName": "Whispers in the Dark",
+            "author": "Samantha Cole",
+            "image": "https://i.ibb.co.com/jWtN2sd/107.jpg",
+            "review": "'Whispers in the Dark' is a psychological thriller that explores the haunting intersections of fear and truth. Samantha Cole masterfully builds an atmosphere of suspense, drawing readers into a world where every shadow holds a secret. The characters' internal struggles and the unexpected twists in the plot create a narrative that is both gripping and deeply unsettling. Cole's ability to delve into the complexities of the human psyche adds a layer of depth to the story, making it a memorable read for fans of the genre. This book is a testament to the enduring power of well-crafted suspense fiction.",
+            "totalPages": 325,
+            "rating": 4.6,
+            "category": "Fiction",
+            "tags": [
+                "Psychological",
+                "Thriller",
+                "Suspense"
+            ],
+            "publisher": "Doubleday",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "108",
+            "bookName": "Beneath the Surface",
+            "author": "Clara Reynolds",
+            "image": "https://i.ibb.co.com/b2rNr9p/108.jpg",
+            "review": "'Beneath the Surface' is a poignant exploration of family secrets and the quest for redemption. Clara Reynolds crafts a narrative that is both emotionally resonant and deeply engaging, drawing readers into the lives of her richly developed characters. The story is filled with moments of tension and revelation, as the protagonist uncovers truths that have long been buried. Reynolds's writing is marked by its emotional depth and lyrical quality, making this book a touching and memorable read. Themes of forgiveness and self-discovery are woven seamlessly into the plot, leaving a lasting impression on the reader.",
+            "totalPages": 345,
+            "rating": 4.7,
+            "category": "Fiction",
+            "tags": [
+                "Family",
+                "Drama",
+                "Emotional"
+            ],
+            "publisher": "HarperCollins",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "109",
+            "bookName": "Echoes of Tomorrow",
+            "author": "William Hart",
+            "image": "https://i.ibb.co.com/xYsSx5D/109.jpg",
+            "review": "'Echoes of Tomorrow' is a speculative fiction masterpiece that explores the complexities of time and destiny. William Hart combines philosophical musings with a gripping narrative, creating a story that is both intellectually stimulating and emotionally impactful. The characters' journeys are marked by moments of profound self-reflection and growth, making them relatable and compelling. Hart's vivid descriptions and imaginative plot twists keep readers engaged, while the book's overarching themes challenge conventional notions of time and interconnectedness. This is a thought-provoking read that will linger in the minds of readers long after the final page.",
+            "totalPages": 380,
+            "rating": 4.8,
+            "category": "Fiction",
+            "tags": [
+                "Speculative",
+                "Philosophical",
+                "Drama"
+            ],
+            "publisher": "Vintage Books",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "201",
+            "bookName": "Love in the Moonlight",
+            "author": "Sophia Mitchell",
+            "image": "https://i.ibb.co.com/101SGr6/201.jpg",
+            "review": "'Love in the Moonlight' is a captivating tale of two souls brought together by fate under the serene glow of the moon. Sophia Mitchell weaves a tender narrative that explores the depths of love, trust, and sacrifice. The protagonists, though flawed, find themselves navigating the complexities of their emotions amidst unforeseen challenges. Mitchell's poetic prose and vivid imagery transport readers to a world where every glance and whispered word carries profound meaning. This book delves into the vulnerability and strength that love demands, making it an unforgettable journey. With its poignant moments and heartfelt revelations, 'Love in the Moonlight' is a testament to the enduring power of love.",
+            "totalPages": 320,
+            "rating": 4.6,
+            "category": "Romance",
+            "tags": [
+                "Heartwarming",
+                "Fate",
+                "Emotional"
+            ],
+            "publisher": "Harlequin Books",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "202",
+            "bookName": "Eternal Embrace",
+            "author": "Michael Grant",
+            "image": "https://i.ibb.co.com/cXrDVzV/202.jpg",
+            "review": "In 'Eternal Embrace,' Michael Grant takes readers on a journey through a love that transcends time and space. The story is steeped in passion, heartbreak, and the hope of finding one’s true partner against all odds. Grant's masterful storytelling creates an immersive experience where the characters' emotions leap off the page. The protagonists' struggle to overcome their pasts and embrace the future together forms the emotional core of the book. Themes of forgiveness and second chances are explored with depth and sincerity, making this a deeply moving read. The lush settings and eloquent prose add a layer of enchantment to this timeless romance.",
+            "totalPages": 350,
+            "rating": 4.7,
+            "category": "Romance",
+            "tags": [
+                "Timeless",
+                "Passionate",
+                "Forgiveness"
+            ],
+            "publisher": "Penguin Random House",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "203",
+            "bookName": "Whispered Promises",
+            "author": "Elena Carter",
+            "image": "https://i.ibb.co.com/cN7HZzP/203.jpg",
+            "review": "'Whispered Promises' is a heartfelt exploration of love, loss, and the courage it takes to heal. Elena Carter brings to life a poignant story of two individuals drawn together by destiny and bound by their shared pain. The book captures the beauty of finding solace in another person, even in the face of heartbreak. Carter’s evocative writing and nuanced characters make the story both relatable and deeply moving. Each chapter unravels layers of vulnerability and hope, leaving readers rooting for the characters' happiness. 'Whispered Promises' is a touching reminder that even broken hearts can mend when love is genuine.",
+            "totalPages": 300,
+            "rating": 4.8,
+            "category": "Romance",
+            "tags": [
+                "Heartfelt",
+                "Healing",
+                "Destiny"
+            ],
+            "publisher": "Hachette Book Group",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "204",
+            "bookName": "The Edge of Forever",
+            "author": "Victoria Hayes",
+            "image": "https://i.ibb.co.com/NCrwsRL/204.jpg",
+            "review": "'The Edge of Forever' tells the mesmerizing tale of a love that defies the boundaries of time. Victoria Hayes spins a story that is equal parts romantic and thrilling, keeping readers on the edge of their seats. The chemistry between the characters is palpable, and their journey is filled with twists and turns that challenge their commitment. Hayes’s vivid descriptions and emotionally charged scenes make this book an unforgettable experience. Themes of loyalty and the sacrifices love demands are explored with sensitivity and depth. This is a must-read for anyone who believes in the magic of enduring love.",
+            "totalPages": 360,
+            "rating": 4.9,
+            "category": "Romance",
+            "tags": [
+                "Timeless",
+                "Thrilling",
+                "Sacrifice"
+            ],
+            "publisher": "Avon Books",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "205",
+            "bookName": "A Dance to Remember",
+            "author": "Isabelle Grant",
+            "image": "https://i.ibb.co.com/L66qw0p/205.jpg",
+            "review": "'A Dance to Remember' is a charming story of unexpected love blossoming in the most unlikeliest of places. Isabelle Grant paints a vivid picture of romance set against the backdrop of an enchanting dance competition. The characters’ chemistry and growth are beautifully depicted, making readers root for their success both on and off the dance floor. Grant’s eloquent storytelling and attention to detail breathe life into the scenes, creating an immersive reading experience. The book explores themes of self-discovery and the transformative power of love, leaving readers with a warm and hopeful feeling.",
+            "totalPages": 280,
+            "rating": 4.5,
+            "category": "Romance",
+            "tags": [
+                "Charming",
+                "Unexpected Love",
+                "Growth"
+            ],
+            "publisher": "Simon & Schuster",
+            "yearOfPublishing": 2021,
+            "bestSeller": false
+        },
+        {
+            "bookId": "206",
+            "bookName": "When Stars Align",
+            "author": "Nora Daniels",
+            "image": "https://i.ibb.co.com/vhRQzhq/206.jpg",
+            "review": "'When Stars Align' is a breathtaking story of love and destiny, where two kindred spirits find their way to each other against all odds. Nora Daniels crafts a tale filled with heartfelt moments and emotional depth, capturing the essence of true connection. The characters’ journey is both inspiring and relatable, as they face challenges that test their bond. Daniels’s lyrical prose and vivid imagery make the story come alive, enveloping readers in its magic. Themes of serendipity and unwavering faith in love are explored, making this a perfect read for hopeless romantics.",
+            "totalPages": 315,
+            "rating": 4.7,
+            "category": "Romance",
+            "tags": [
+                "Destiny",
+                "Heartfelt",
+                "Serendipity"
+            ],
+            "publisher": "HarperCollins",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "207",
+            "bookName": "The Art of Falling",
+            "author": "Lily Harper",
+            "image": "https://i.ibb.co.com/txXvpqx/207.jpg",
+            "review": "'The Art of Falling' is a compelling story of rediscovery and the healing power of love. Lily Harper introduces readers to a protagonist who learns to embrace vulnerability and trust after a life-changing event. The narrative is rich with emotion, exploring the complexities of human relationships with honesty and grace. Harper’s ability to capture the intricacies of love and loss makes this book an engaging and thought-provoking read. Each page is filled with moments of introspection and hope, leaving readers with a sense of renewal and belief in the power of second chances.",
+            "totalPages": 290,
+            "rating": 4.6,
+            "category": "Romance",
+            "tags": [
+                "Healing",
+                "Second Chances",
+                "Rediscovery"
+            ],
+            "publisher": "Macmillan Publishers",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "208",
+            "bookName": "Seasons of the Heart",
+            "author": "Amelia Clarke",
+            "image": "https://i.ibb.co.com/jRrtsxj/208.jpg",
+            "review": "'Seasons of the Heart' is a beautifully written tale that explores the evolution of love through the different stages of life. Amelia Clarke masterfully captures the joys, sorrows, and triumphs that come with being deeply connected to another person. The narrative is a testament to the enduring power of love, even in the face of life's challenges. Clarke's eloquent prose and richly drawn characters make this book an emotional and satisfying read. Themes of resilience and companionship are woven seamlessly into the story, making it a timeless addition to the romance genre.",
+            "totalPages": 340,
+            "rating": 4.8,
+            "category": "Romance",
+            "tags": [
+                "Resilience",
+                "Companionship",
+                "Timeless"
+            ],
+            "publisher": "Ballantine Books",
+            "yearOfPublishing": 2019,
+            "bestSeller": false
+        },
+        {
+            "bookId": "209",
+            "bookName": "The Melody of Us",
+            "author": "Olivia Harper",
+            "image": "https://i.ibb.co.com/qJ04StQ/209.jpg",
+            "review": "'The Melody of Us' is a harmonious blend of music and romance, telling the story of two individuals who find love through their shared passion. Olivia Harper’s writing is both lyrical and captivating, drawing readers into a world where melodies express what words cannot. The characters’ journey of self-discovery and mutual growth is beautifully portrayed, making their love story both believable and inspiring. Harper explores themes of creativity, vulnerability, and the healing power of love with depth and sincerity. This book is a delightful and heartwarming read for anyone who believes in the magic of love.",
+            "totalPages": 310,
+            "rating": 4.7,
+            "category": "Romance",
+            "tags": [
+                "Music",
+                "Creativity",
+                "Heartwarming"
+            ],
+            "publisher": "Doubleday",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "301",
+            "bookName": "Beyond the Event Horizon",
+            "author": "Marcus Ellington",
+            "image": "https://i.ibb.co.com/XXVVWRQ/301.jpg",
+            "review": "'Beyond the Event Horizon' is a gripping exploration of humanity's first encounter with a mysterious alien megastructure at the edge of the galaxy. Marcus Ellington crafts a tale that is both intellectually stimulating and emotionally profound. The protagonist, a brilliant astrophysicist, leads a daring mission into the unknown, facing moral dilemmas and unraveling secrets about the universe and themselves. Ellington masterfully balances hard science fiction with deeply human themes, making the story both accessible and thought-provoking. The vivid descriptions and intense pacing keep readers riveted as the characters grapple with the enormity of their discoveries. This book is a must-read for fans of space exploration and speculative fiction.",
+            "totalPages": 420,
+            "rating": 4.9,
+            "category": "Science Fiction",
+            "tags": [
+                "Space Exploration",
+                "Aliens",
+                "Mystery"
+            ],
+            "publisher": "Orbit Books",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "302",
+            "bookName": "The Quantum Rift",
+            "author": "Evelyn Cross",
+            "image": "https://i.ibb.co.com/v35h2KM/302.jpg",
+            "review": "'The Quantum Rift' is a stunning narrative that merges quantum physics with the struggles of survival in a collapsing multiverse. Evelyn Cross introduces readers to a cast of compelling characters, each grappling with their unique fears and ambitions as they navigate an interdimensional crisis. The story expertly weaves scientific concepts with emotional depth, creating a gripping tale of courage and sacrifice. Cross’s vivid imagery and intricate plot twists keep readers engaged from start to finish. This book challenges perceptions of reality while delivering a thrilling and satisfying story about the resilience of the human spirit.",
+            "totalPages": 385,
+            "rating": 4.8,
+            "category": "Science Fiction",
+            "tags": [
+                "Multiverse",
+                "Quantum Physics",
+                "Survival"
+            ],
+            "publisher": "Tor Books",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "303",
+            "bookName": "The Artificial Conscience",
+            "author": "Drake Fulton",
+            "image": "https://i.ibb.co.com/NTVb52z/303.jpg",
+            "review": "'The Artificial Conscience' delves into the moral complexities of advanced AI and its place in a society on the brink of revolution. Drake Fulton paints a chilling portrait of a world where technology governs human lives, raising questions about autonomy, ethics, and identity. The protagonist, a reluctant revolutionary, discovers the hidden intentions behind the AI’s creation, sparking a battle for humanity’s freedom. Fulton's sharp prose and detailed world-building create a narrative that is both thought-provoking and thrilling. The book’s blend of action, philosophy, and emotional stakes makes it a standout in the genre.",
+            "totalPages": 410,
+            "rating": 4.7,
+            "category": "Science Fiction",
+            "tags": [
+                "AI",
+                "Ethics",
+                "Revolution"
+            ],
+            "publisher": "Del Rey",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "304",
+            "bookName": "Chronos: The Time Experiment",
+            "author": "Amelia Rios",
+            "image": "https://i.ibb.co.com/Wg3x50N/304.jpg",
+            "review": "'Chronos: The Time Experiment' is an exhilarating journey through time and its paradoxes. Amelia Rios introduces readers to a scientist who inadvertently alters history, unleashing unforeseen consequences across multiple timelines. The story’s intricate plot keeps readers guessing as it explores the fragility of time and the weight of personal choices. Rios’s compelling characters and seamless integration of scientific theories with human drama make this book an unforgettable read. With its gripping twists and poignant reflections on responsibility and regret, 'Chronos' is a masterpiece of time-travel storytelling.",
+            "totalPages": 360,
+            "rating": 4.8,
+            "category": "Science Fiction",
+            "tags": [
+                "Time Travel",
+                "Paradoxes",
+                "Choices"
+            ],
+            "publisher": "HarperVoyager",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "305",
+            "bookName": "Nebula Rising",
+            "author": "Jared Kane",
+            "image": "https://i.ibb.co.com/2gtx49c/305.jpg",
+            "review": "'Nebula Rising' is an action-packed space opera that chronicles the struggle for control over a powerful cosmic resource. Jared Kane’s vivid descriptions of interstellar battles and political intrigue immerse readers in a galaxy teetering on the edge of chaos. The story’s rich characters and their conflicting motivations add layers of complexity to the narrative. Kane’s skillful blending of fast-paced action with moments of introspection creates a dynamic and engaging tale. This book is a testament to the resilience of hope and the unyielding fight for justice, even in the vastness of space.",
+            "totalPages": 440,
+            "rating": 4.6,
+            "category": "Science Fiction",
+            "tags": [
+                "Space Opera",
+                "Interstellar Conflict",
+                "Justice"
+            ],
+            "publisher": "Saga Press",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "306",
+            "bookName": "Genesis Prime",
+            "author": "Lila Andrews",
+            "image": "https://i.ibb.co.com/Gccttgb/306.jpg",
+            "review": "'Genesis Prime' is a visionary tale that explores the creation of a utopian society on a distant planet. Lila Andrews delves into themes of innovation, ethics, and the unyielding human drive to conquer new frontiers. The narrative is rich with tension as the pioneers grapple with environmental challenges and moral dilemmas that threaten to unravel their vision. Andrews’s detailed descriptions and emotional depth bring the story to life, creating a compelling read that resonates with the challenges of our modern world. This book is an inspiring exploration of humanity’s potential and its limitations.",
+            "totalPages": 390,
+            "rating": 4.7,
+            "category": "Science Fiction",
+            "tags": [
+                "Utopia",
+                "Frontier",
+                "Innovation"
+            ],
+            "publisher": "Baen Books",
+            "yearOfPublishing": 2019,
+            "bestSeller": false
+        },
+        {
+            "bookId": "307",
+            "bookName": "The Stardust Project",
+            "author": "Naomi Blake",
+            "image": "https://i.ibb.co.com/rm8swjq/307.jpg",
+            "review": "'The Stardust Project' follows a daring expedition to harvest a rare energy source from a distant star. Naomi Blake crafts a gripping narrative filled with high-stakes decisions, unexpected alliances, and breathtaking discoveries. The crew’s struggles with survival and unity in the face of cosmic dangers form the emotional core of the story. Blake’s expert pacing and vivid world-building keep readers enthralled from start to finish. This book is a thrilling and thought-provoking exploration of ambition, teamwork, and the price of progress.",
+            "totalPages": 400,
+            "rating": 4.6,
+            "category": "Science Fiction",
+            "tags": [
+                "Space Exploration",
+                "Teamwork",
+                "Ambition"
+            ],
+            "publisher": "Ace Books",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "308",
+            "bookName": "Echoes of the Void",
+            "author": "Victor Lane",
+            "image": "https://i.ibb.co.com/J2Tt542/308.jpg",
+            "review": "'Echoes of the Void' is a haunting tale set in a universe where the remnants of a mysterious ancient civilization hold the key to humanity’s survival. Victor Lane’s masterful storytelling blends cosmic horror with philosophical musings, creating a narrative that is both chilling and profound. The protagonist’s quest to unravel the truth behind the ancient echoes leads to revelations that challenge their understanding of existence. Lane’s atmospheric prose and thought-provoking themes make this book an unforgettable journey into the unknown.",
+            "totalPages": 420,
+            "rating": 4.9,
+            "category": "Science Fiction",
+            "tags": [
+                "Ancient Civilization",
+                "Cosmic Horror",
+                "Survival"
+            ],
+            "publisher": "Gollancz",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "309",
+            "bookName": "The Singularity Code",
+            "author": "Emma Fields",
+            "image": "https://i.ibb.co.com/NKQhLv1/309.jpg",
+            "review": "'The Singularity Code' is a riveting exploration of the rise of sentient machines and their impact on human society. Emma Fields delves into themes of identity, freedom, and the essence of humanity with remarkable insight. The protagonist, a brilliant programmer, finds themselves at the center of a global conflict between humans and AI factions. Fields’s gripping narrative and deeply emotional character arcs make this book a standout in the genre. The ethical questions it raises linger long after the last page, making it a must-read for science fiction enthusiasts.",
+            "totalPages": 430,
+            "rating": 4.8,
+            "category": "Science Fiction",
+            "tags": [
+                "AI",
+                "Humanity",
+                "Ethics"
+            ],
+            "publisher": "Spectra",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "401",
+            "bookName": "The Dragon's Oath",
+            "author": "Eleanor Draycott",
+            "image": "https://i.ibb.co.com/nmpVh8b/401.jpg",
+            "review": "'The Dragon's Oath' is an enthralling epic filled with magic, loyalty, and the fight against darkness. Eleanor Draycott introduces readers to a richly imagined world where ancient dragons form pacts with brave warriors to protect the realm. The story follows a young outcast who discovers their destiny as a dragon-bound knight, facing trials that test their courage and resolve. Draycott's vivid descriptions and intricate world-building immerse readers in a land brimming with wonder and danger. The bond between human and dragon is explored with emotional depth, making it a tale of friendship and sacrifice. With its action-packed plot and heartfelt moments, this book is a captivating addition to the fantasy genre.",
+            "totalPages": 480,
+            "rating": 4.9,
+            "category": "Fantasy",
+            "tags": [
+                "Dragons",
+                "Magic",
+                "Adventure"
+            ],
+            "publisher": "Tor Books",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "402",
+            "bookName": "The Shadow Queen",
+            "author": "Isla Montgomery",
+            "image": "https://i.ibb.co.com/5sQBbq1/402.jpg",
+            "review": "'The Shadow Queen' is a darkly captivating tale of power, betrayal, and redemption. Isla Montgomery weaves a gripping story about a dethroned queen who must reclaim her kingdom from an usurper wielding forbidden magic. The protagonist's journey is one of resilience and self-discovery, as she learns to master her own powers while navigating treacherous alliances. Montgomery's lush prose and well-developed characters bring the story to life, keeping readers hooked until the final page. Themes of trust, sacrifice, and the complexities of leadership are skillfully explored. This book is a must-read for fans of dark fantasy and strong female leads.",
+            "totalPages": 420,
+            "rating": 4.8,
+            "category": "Fantasy",
+            "tags": [
+                "Dark Fantasy",
+                "Power",
+                "Betrayal"
+            ],
+            "publisher": "Orbit Books",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "403",
+            "bookName": "The Forest of Whispers",
+            "author": "Lila Hawthorne",
+            "image": "https://i.ibb.co.com/Bnyz8Mw/403.jpg",
+            "review": "'The Forest of Whispers' is a spellbinding adventure set in an enchanted forest shrouded in mystery. Lila Hawthorne crafts a tale of wonder and peril as a young healer embarks on a quest to uncover the truth behind the forest's curse. The vivid descriptions of magical flora and fauna create a world that feels alive and immersive. Hawthorne’s storytelling is both lyrical and gripping, blending elements of folklore with modern fantasy. The characters’ struggles and triumphs are portrayed with emotional depth, making their journey a heartfelt experience. This book is a delightful escape into a world of magic and intrigue.",
+            "totalPages": 350,
+            "rating": 4.7,
+            "category": "Fantasy",
+            "tags": [
+                "Enchanting",
+                "Folklore",
+                "Quest"
+            ],
+            "publisher": "HarperVoyager",
+            "yearOfPublishing": 2021,
+            "bestSeller": true
+        },
+        {
+            "bookId": "404",
+            "bookName": "Crown of Ashes",
+            "author": "Morgan Valance",
+            "image": "https://i.ibb.co.com/dQ6m5gz/404.jpg",
+            "review": "'Crown of Ashes' is a gripping tale of rebellion, revenge, and the quest for justice in a land ruled by tyranny. Morgan Valance introduces readers to a heroine whose burning desire to avenge her family leads her on a perilous journey. The intricate political intrigue and fast-paced action make this a compelling read from start to finish. Valance’s world-building is richly detailed, immersing readers in a realm torn by war and dark magic. Themes of loyalty, betrayal, and personal sacrifice are explored with depth and intensity. This book is a thrilling addition to the fantasy genre, blending heart-pounding drama with moments of hope and triumph.",
+            "totalPages": 430,
+            "rating": 4.8,
+            "category": "Fantasy",
+            "tags": [
+                "Rebellion",
+                "Dark Magic",
+                "Justice"
+            ],
+            "publisher": "Del Rey",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "405",
+            "bookName": "The Celestial Accord",
+            "author": "Jonas Fletcher",
+            "image": "https://i.ibb.co.com/yRPwvbx/405.jpg",
+            "review": "'The Celestial Accord' is an epic saga of celestial beings and mortal heroes uniting to prevent the apocalypse. Jonas Fletcher crafts a breathtaking narrative filled with divine battles, forbidden love, and the struggle to protect humanity. The protagonist’s journey from a humble scholar to a key figure in the cosmic conflict is both inspiring and harrowing. Fletcher’s vivid imagery and intricate plot twists keep readers on the edge of their seats. Themes of duty, love, and the balance of power are woven seamlessly into the story, making it an unforgettable read. This book is a must for fans of grand, sweeping fantasy adventures.",
+            "totalPages": 520,
+            "rating": 4.9,
+            "category": "Fantasy",
+            "tags": [
+                "Epic",
+                "Divine Conflict",
+                "Heroic"
+            ],
+            "publisher": "Gollancz",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "406",
+            "bookName": "The Alchemist's War",
+            "author": "Fiona Grey",
+            "image": "https://i.ibb.co.com/ZXBHZKG/406.jpg",
+            "review": "'The Alchemist's War' is a thrilling tale of invention, betrayal, and the pursuit of immortality. Fiona Grey weaves a story that combines the intrigue of alchemical experiments with the drama of war between rival kingdoms. The protagonist, a young alchemist, must navigate treacherous alliances and uncover ancient secrets to save their homeland. Grey’s attention to detail and rich world-building bring the story to life, immersing readers in a land of danger and discovery. Themes of ambition, morality, and the cost of power are explored with nuance and depth. This book is a compelling addition to the world of fantasy fiction.",
+            "totalPages": 400,
+            "rating": 4.7,
+            "category": "Fantasy",
+            "tags": [
+                "Alchemy",
+                "War",
+                "Betrayal"
+            ],
+            "publisher": "Ace Books",
+            "yearOfPublishing": 2021,
+            "bestSeller": false
+        },
+        {
+            "bookId": "407",
+            "bookName": "The Veil of Stars",
+            "author": "Camille Rivers",
+            "image": "https://i.ibb.co.com/vVgPnsD/407.jpg",
+            "review": "'The Veil of Stars' is a mesmerizing story of a young warrior’s quest to break an ancient curse and restore balance to the celestial realms. Camille Rivers creates a tale filled with breathtaking magic, fierce battles, and poignant moments of self-discovery. The protagonist’s journey is both personal and universal, resonating with themes of destiny and the struggle against darkness. Rivers’s lyrical prose and detailed world-building transport readers to a realm where the stars hold secrets and power. This book is a luminous addition to the fantasy genre, offering a story that is both thrilling and deeply moving.",
+            "totalPages": 450,
+            "rating": 4.8,
+            "category": "Fantasy",
+            "tags": [
+                "Celestial",
+                "Curse",
+                "Self-Discovery"
+            ],
+            "publisher": "Ballantine Books",
+            "yearOfPublishing": 2022,
+            "bestSeller": true
+        },
+        {
+            "bookId": "408",
+            "bookName": "The Shattered Crown",
+            "author": "Oliver Hart",
+            "image": "https://i.ibb.co.com/YRdVkvB/408.jpg",
+            "review": "'The Shattered Crown' is a tale of fractured kingdoms, forbidden alliances, and the fight for unity. Oliver Hart’s storytelling is both intricate and engrossing, drawing readers into a world on the brink of chaos. The protagonist, a reluctant prince, must navigate political intrigue and personal loss to unite warring factions. Hart’s characters are vividly drawn, each with their own motives and secrets, adding layers of complexity to the narrative. Themes of loyalty, redemption, and the cost of leadership are explored with depth and realism. This book is a masterful exploration of power, responsibility, and hope in the face of despair.",
+            "totalPages": 480,
+            "rating": 4.8,
+            "category": "Fantasy",
+            "tags": [
+                "Politics",
+                "War",
+                "Unity"
+            ],
+            "publisher": "HarperVoyager",
+            "yearOfPublishing": 2022,
+            "bestSeller": false
+        },
+        {
+            "bookId": "409",
+            "bookName": "The Guardian's Legacy",
+            "author": "Sophia Delacroix",
+            "image": "https://i.ibb.co.com/ZSB9s1p/409.jpg",
+            "review": "'The Guardian's Legacy' is a sweeping tale of ancient magic, undying loyalty, and the search for belonging. Sophia Delacroix introduces readers to a mystical world where guardians protect sacred relics that hold the balance of the universe. The story follows a young orphan chosen to inherit a guardian’s mantle and the trials she must overcome to accept her destiny. Delacroix’s lush descriptions and compelling plot weave an intricate tapestry of adventure and emotional depth. The book masterfully examines themes of legacy, courage, and self-discovery, making it a resonant and unforgettable journey. This is a story that will captivate fans of timeless fantasy epics.",
+            "totalPages": 500,
+            "rating": 4.9,
+            "category": "Fantasy",
+            "tags": [
+                "Legacy",
+                "Ancient Magic",
+                "Relics"
+            ],
+            "publisher": "Macmillan",
+            "yearOfPublishing": 2023,
+            "bestSeller": true
+        },
+        {
+            "bookId": "501",
+            "bookName": "The Art of Resilience",
+            "author": "Ross Edgley",
+            "image": "https://i.ibb.co.com/QvtTxb7/501.jpg",
+            "review": "'The Art of Resilience' delves into the mental and physical grit required to tackle life’s greatest challenges. Ross Edgley draws on his incredible experiences, including swimming around the entire United Kingdom, to explore how endurance and mindset can be developed. With scientific insights, practical advice, and fascinating anecdotes, Edgley inspires readers to redefine their limits. His candid storytelling about the highs and lows of his journey provides a relatable and uplifting perspective. This book is a testament to human potential and a valuable guide for anyone seeking to build resilience in their life.",
+            "totalPages": 320,
+            "rating": 4.8,
+            "category": "Non-fiction",
+            "tags": [
+                "Resilience",
+                "Endurance",
+                "Mindset"
+            ],
+            "publisher": "HarperCollins",
+            "yearOfPublishing": 2020,
+            "bestSeller": true
+        },
+        {
+            "bookId": "502",
+            "bookName": "Educated",
+            "author": "Tara Westover",
+            "image": "https://i.ibb.co.com/tmPJGSL/502.jpg",
+            "review": "'Educated' is a raw and deeply moving memoir of a young woman’s journey from a survivalist upbringing to earning a PhD from Cambridge University. Tara Westover recounts her childhood in rural Idaho, where formal education was shunned, and her pursuit of knowledge became a form of rebellion. Her poignant storytelling reveals the complexities of family loyalty, self-determination, and the transformative power of education. Westover's resilience and courage shine through every page, making this an unforgettable narrative of overcoming adversity.",
+            "totalPages": 334,
+            "rating": 4.7,
+            "category": "Non-fiction",
+            "tags": [
+                "Memoir",
+                "Education",
+                "Overcoming Adversity"
+            ],
+            "publisher": "Random House",
+            "yearOfPublishing": 2018,
+            "bestSeller": true
+        },
+        {
+            "bookId": "503",
+            "bookName": "Atomic Habits",
+            "author": "James Clear",
+            "image": "https://i.ibb.co.com/HVrQjbD/503.jpg",
+            "review": "'Atomic Habits' offers a comprehensive framework for breaking bad habits and building good ones. James Clear combines scientific research with practical strategies, making the process of change both accessible and achievable. The book’s focus on small, incremental improvements—what Clear calls the 1% rule—provides a fresh perspective on self-improvement. His relatable anecdotes and actionable advice make 'Atomic Habits' a must-read for anyone looking to make lasting changes in their life. This is a guide that not only educates but also motivates.",
+            "totalPages": 276,
+            "rating": 4.9,
+            "category": "Non-fiction",
+            "tags": [
+                "Habits",
+                "Self-Improvement",
+                "Productivity"
+            ],
+            "publisher": "Penguin Random House",
+            "yearOfPublishing": 2018,
+            "bestSeller": true
+        },
+        {
+            "bookId": "504",
+            "bookName": "Sapiens: A Brief History of Humankind",
+            "author": "Yuval Noah Harari",
+            "image": "https://i.ibb.co.com/z8bnc2n/504.jpg",
+            "review": "'Sapiens' takes readers on an extraordinary journey through the history of our species. Yuval Noah Harari examines how Homo sapiens rose to dominate the planet, exploring key developments in culture, economics, and politics. With sharp insights and engaging storytelling, Harari provides a fresh perspective on the forces that shaped humanity. This is a thought-provoking book that challenges readers to reconsider the world and their place in it. Harari’s ability to distill complex topics into accessible narratives makes 'Sapiens' an essential read for anyone curious about history and human evolution.",
+            "totalPages": 443,
+            "rating": 4.6,
+            "category": "Non-fiction",
+            "tags": [
+                "History",
+                "Human Evolution",
+                "Society"
+            ],
+            "publisher": "Harper",
+            "yearOfPublishing": 2014,
+            "bestSeller": true
+        },
+        {
+            "bookId": "505",
+            "bookName": "Becoming",
+            "author": "Michelle Obama",
+            "image": "https://i.ibb.co.com/99ZKkPf/505.jpg",
+            "review": "'Becoming' is a deeply personal and inspiring memoir by former First Lady Michelle Obama. Through vivid and heartfelt storytelling, Obama shares her journey from her childhood in Chicago to her years in the White House. The book captures her struggles, triumphs, and unwavering commitment to her values. Her reflections on identity, work-life balance, and motherhood resonate with readers from all walks of life. 'Becoming' is not just a memoir but a powerful call to embrace our stories and find our voice.",
+            "totalPages": 426,
+            "rating": 4.8,
+            "category": "Non-fiction",
+            "tags": [
+                "Memoir",
+                "Inspiration",
+                "Leadership"
+            ],
+            "publisher": "Crown Publishing",
+            "yearOfPublishing": 2018,
+            "bestSeller": true
+        },
+        {
+            "bookId": "506",
+            "bookName": "Outliers: The Story of Success",
+            "author": "Malcolm Gladwell",
+            "image": "https://i.ibb.co.com/KK92VH9/506.jpg",
+            "review": "'Outliers' examines the factors that contribute to high levels of success. Malcolm Gladwell argues that success is not merely the result of individual talent but also the result of cultural legacies, upbringing, and opportunity. His exploration of the 10,000-hour rule, the significance of birth dates, and the role of community challenges conventional ideas about achievement. With engaging stories and surprising insights, 'Outliers' is a fascinating read that changes how we view success and the paths to greatness.",
+            "totalPages": 309,
+            "rating": 4.6,
+            "category": "Non-fiction",
+            "tags": [
+                "Success",
+                "Psychology",
+                "Sociology"
+            ],
+            "publisher": "Little, Brown and Company",
+            "yearOfPublishing": 2008,
+            "bestSeller": true
+        },
+        {
+            "bookId": "507",
+            "bookName": "The Power of Now",
+            "author": "Eckhart Tolle",
+            "image": "https://i.ibb.co.com/x3hZcpn/507.jpg",
+            "review": "'The Power of Now' offers profound insights into the nature of consciousness and the importance of living in the present moment. Eckhart Tolle combines spiritual teachings with practical advice to help readers transcend ego-driven thoughts and find inner peace. His calming tone and deep wisdom resonate throughout the book, providing readers with a transformative experience. This is a guide to mindfulness and self-discovery that encourages readers to embrace the now as the key to true happiness.",
+            "totalPages": 229,
+            "rating": 4.7,
+            "category": "Non-fiction",
+            "tags": [
+                "Mindfulness",
+                "Spirituality",
+                "Self-Help"
+            ],
+            "publisher": "New World Library",
+            "yearOfPublishing": 1997,
+            "bestSeller": true
+        },
+        {
+            "bookId": "508",
+            "bookName": "The Wright Brothers",
+            "author": "David McCullough",
+            "image": "https://i.ibb.co.com/rHJY8rv/508.jpg",
+            "review": "'The Wright Brothers' is a compelling biography that chronicles the lives of Wilbur and Orville Wright, pioneers of aviation. David McCullough brings their story to life with rich detail and vivid storytelling. He captures their perseverance, ingenuity, and the challenges they faced in achieving the first powered flight. This book provides an inspiring look at their achievements and the broader context of the early 20th century. McCullough’s meticulous research and engaging narrative make this a captivating read for history and aviation enthusiasts alike.",
+            "totalPages": 320,
+            "rating": 4.5,
+            "category": "Non-fiction",
+            "tags": [
+                "Biography",
+                "Aviation",
+                "Innovation"
+            ],
+            "publisher": "Simon & Schuster",
+            "yearOfPublishing": 2015,
+            "bestSeller": true
+        },
+        {
+            "bookId": "509",
+            "bookName": "Factfulness",
+            "author": "Hans Rosling",
+            "image": "https://i.ibb.co.com/2kX4DzT/509.jpg",
+            "review": "'Factfulness' is a transformative book that challenges widespread misconceptions about the world. Hans Rosling uses data, stories, and humor to demonstrate how human progress is often overshadowed by fear and misinformation. By offering practical tools for critical thinking and a balanced perspective, Rosling empowers readers to make sense of complex global issues. This book is a refreshing and optimistic antidote to pessimism, providing a fact-based framework to understand the world better. It’s an essential read for anyone seeking clarity in an increasingly complex world.",
+            "totalPages": 352,
+            "rating": 4.8,
+            "category": "Non-fiction",
+            "tags": [
+                "Data",
+                "Critical Thinking",
+                "Global Trends"
+            ],
+            "publisher": "Flatiron Books",
+            "yearOfPublishing": 2018,
+            "bestSeller": true
+        },
+        {
+            "bookId": "601",
+            "bookName": "The Silent Patient",
+            "author": "Alex Michaelides",
+            "image": "https://i.ibb.co.com/fHFwKrf/601.png",
+            "review": "'The Silent Patient' is a chilling psychological thriller that keeps readers guessing until the very end. Alex Michaelides weaves the story of Alicia Berenson, a famous painter who becomes mute after being accused of murdering her husband. The narrative is driven by Theo Faber, a psychotherapist determined to unravel her silence. Michaelides masterfully creates a web of suspense, drawing readers into a dark and twisted tale of obsession, betrayal, and hidden truths. The shocking climax leaves an unforgettable impression, making this book a must-read for thriller enthusiasts.",
+            "totalPages": 336,
+            "rating": 4.7,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Psychological Thriller",
+                "Suspense",
+                "Murder Mystery"
+            ],
+            "publisher": "Celadon Books",
+            "yearOfPublishing": 2019,
+            "bestSeller": true
+        },
+        {
+            "bookId": "602",
+            "bookName": "Gone Girl",
+            "author": "Gillian Flynn",
+            "image": "https://i.ibb.co.com/YtKNVXN/602.jpg",
+            "review": "'Gone Girl' is a gripping tale of a marriage gone wrong, filled with deception, manipulation, and shocking twists. Gillian Flynn crafts a dual narrative, alternating between Nick Dunne, the prime suspect in his wife Amy’s disappearance, and Amy’s diary entries. The characters’ complex psyches and the meticulously plotted storyline keep readers on edge. Flynn’s exploration of media sensationalism and societal expectations adds depth to this fast-paced thriller. With its unpredictable twists and dark humor, 'Gone Girl' remains a classic in the genre.",
+            "totalPages": 415,
+            "rating": 4.5,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Psychological Thriller",
+                "Marriage",
+                "Twists"
+            ],
+            "publisher": "Crown Publishing",
+            "yearOfPublishing": 2012,
+            "bestSeller": true
+        },
+        {
+            "bookId": "603",
+            "bookName": "The Girl with the Dragon Tattoo",
+            "author": "Stieg Larsson",
+            "image": "https://i.ibb.co.com/t4pjHjH/603.jpg",
+            "review": "'The Girl with the Dragon Tattoo' introduces readers to Lisbeth Salander, a brilliant but troubled hacker, and Mikael Blomkvist, a journalist on a mission to solve a decades-old disappearance. Stieg Larsson’s intricately plotted thriller delves into themes of corruption, abuse, and justice. The novel’s Scandinavian setting and richly drawn characters add to its atmospheric tension. Larsson’s sharp prose and unexpected twists make this book an enthralling read that keeps readers hooked until the final page.",
+            "totalPages": 465,
+            "rating": 4.6,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Hacker",
+                "Investigative Thriller",
+                "Scandinavian Noir"
+            ],
+            "publisher": "Norstedts Förlag",
+            "yearOfPublishing": 2005,
+            "bestSeller": true
+        },
+        {
+            "bookId": "604",
+            "bookName": "The Couple Next Door",
+            "author": "Shari Lapena",
+            "image": "https://i.ibb.co.com/KD140jX/604.jpg",
+            "review": "'The Couple Next Door' is a fast-paced domestic thriller that explores the dark secrets of a seemingly perfect neighborhood. Shari Lapena takes readers on a rollercoaster ride as Anne and Marco Conti deal with the fallout of their baby’s disappearance. The twists and turns reveal shocking betrayals, lies, and hidden motives. Lapena’s skillful pacing and emotionally charged writing keep readers on the edge of their seats. This is a gripping story that exposes the fragility of trust and the masks people wear.",
+            "totalPages": 308,
+            "rating": 4.4,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Domestic Thriller",
+                "Suspense",
+                "Secrets"
+            ],
+            "publisher": "Penguin Random House",
+            "yearOfPublishing": 2016,
+            "bestSeller": true
+        },
+        {
+            "bookId": "605",
+            "bookName": "The Woman in the Window",
+            "author": "A.J. Finn",
+            "image": "https://i.ibb.co.com/hsT1HT9/605.jpg",
+            "review": "'The Woman in the Window' is a haunting psychological thriller about Anna Fox, an agoraphobic woman who believes she has witnessed a crime. A.J. Finn crafts an unreliable narrative filled with tension and mystery as Anna navigates her fears and the secrets of her neighbors. The book’s Hitchcockian vibe and richly drawn characters make it a standout in the genre. The shocking revelations and atmospheric storytelling keep readers hooked, culminating in a stunning finale.",
+            "totalPages": 427,
+            "rating": 4.3,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Psychological Thriller",
+                "Unreliable Narrator",
+                "Crime"
+            ],
+            "publisher": "William Morrow",
+            "yearOfPublishing": 2018,
+            "bestSeller": true
+        },
+        {
+            "bookId": "606",
+            "bookName": "Big Little Lies",
+            "author": "Liane Moriarty",
+            "image": "https://i.ibb.co.com/64X52rJ/606.jpg",
+            "review": "'Big Little Lies' is a masterfully crafted mystery that unravels the lives of three women connected by a tragic event at their children’s school. Liane Moriarty delves into themes of domestic violence, friendship, and social facades, creating a compelling story that is as emotionally resonant as it is suspenseful. The intertwining narratives and clever pacing keep readers guessing about the truth behind the lies. Moriarty’s sharp wit and nuanced character development make this a memorable and thought-provoking read.",
+            "totalPages": 480,
+            "rating": 4.6,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Domestic Thriller",
+                "Friendship",
+                "Social Drama"
+            ],
+            "publisher": "Berkley",
+            "yearOfPublishing": 2014,
+            "bestSeller": true
+        },
+        {
+            "bookId": "607",
+            "bookName": "The Chestnut Man",
+            "author": "Søren Sveistrup",
+            "image": "https://i.ibb.co.com/9TdZtw6/607.jpg",
+            "review": "'The Chestnut Man' is a chilling Nordic noir thriller that follows detectives investigating a gruesome series of murders linked by a sinister calling card—a chestnut figure. Søren Sveistrup combines atmospheric storytelling with a gripping plot to create a dark and twisted tale. The investigation uncovers buried secrets and shocking truths, keeping readers on edge. Sveistrup’s knack for building tension and his intricate character portrayals make this book an unputdownable read for fans of crime fiction.",
+            "totalPages": 528,
+            "rating": 4.5,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Nordic Noir",
+                "Serial Killer",
+                "Police Procedural"
+            ],
+            "publisher": "HarperCollins",
+            "yearOfPublishing": 2019,
+            "bestSeller": true
+        },
+        {
+            "bookId": "608",
+            "bookName": "Before I Go to Sleep",
+            "author": "S.J. Watson",
+            "image": "https://i.ibb.co.com/QDQK4tX/608.jpg",
+            "review": "'Before I Go to Sleep' is a psychological thriller that plunges readers into the fragmented world of Christine Lucas, a woman who loses her memory every time she sleeps. S.J. Watson expertly builds tension as Christine pieces together her past and uncovers unsettling truths about her life. The unreliable narration and relentless pace make this book an intense and immersive read. Watson’s ability to keep readers guessing until the jaw-dropping conclusion sets this thriller apart.",
+            "totalPages": 360,
+            "rating": 4.4,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Psychological Thriller",
+                "Memory Loss",
+                "Unreliable Narrator"
+            ],
+            "publisher": "HarperCollins",
+            "yearOfPublishing": 2011,
+            "bestSeller": true
+        },
+        {
+            "bookId": "609",
+            "bookName": "The Chain",
+            "author": "Adrian McKinty",
+            "image": "https://i.ibb.co.com/XSrnbps/609.jpg",
+            "review": "'The Chain' is a relentless thriller that explores the lengths parents will go to save their children. Adrian McKinty introduces readers to Rachel, a mother ensnared in a diabolical kidnapping scheme where victims must kidnap others to secure their loved ones’ release. The moral dilemmas and escalating tension create a nail-biting experience. McKinty’s razor-sharp writing and relentless pacing make 'The Chain' a gripping and emotionally charged thriller that lingers long after the last page.",
+            "totalPages": 368,
+            "rating": 4.7,
+            "category": "Mystery & Thriller",
+            "tags": [
+                "Kidnapping",
+                "Moral Dilemmas",
+                "Suspense"
+            ],
+            "publisher": "Mulholland Books",
+            "yearOfPublishing": 2019,
+            "bestSeller": true
+        }
+    ]
+}

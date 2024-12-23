@@ -1,0 +1,21 @@
+.tab-buttons {
+  border-bottom: 2px solid #ddd;
+}
+
+.tab-button {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+  font-weight: bold;
+  background-color: #3B82F6;
+  color: white;
+  border-bottom: 4px solid rgb(53, 53, 52);
+}
+
+.tab-panels {
+  padding-top: 20px;
+}
