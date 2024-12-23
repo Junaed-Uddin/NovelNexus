@@ -32,12 +32,12 @@ const Book = ({ book }) => {
         </div>
         <div className="flex justify-start flex-wrap px-3 py-3 items-center sm:space-x-2">
           {tags.map((tag, idx) => (
-            <p
+            <span
               className="badge bg-blue-200 flex-grow bg-opacity-40 text-blue-500 mx-1 mb-2 font-semibold border-none"
               key={idx}
             >
               {tag}
-            </p>
+            </span>
           ))}
         </div>
         <div className="flex flex-col flex-grow px-5 space-y-3">
