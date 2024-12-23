@@ -2,13 +2,14 @@ import PropTypes from "prop-types";
 import { IoLocationOutline } from "react-icons/io5";
 import { GrGroup } from "react-icons/gr";
 import { GiNewspaper } from "react-icons/gi";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BiCategory } from "react-icons/bi";
 import { RiUserStarLine } from "react-icons/ri";
 import { CiBoxList } from "react-icons/ci";
 
 const StoredListCards = ({ book }) => {
   const {
+    bookId,
     bookName,
     author,
     image,
@@ -20,7 +21,6 @@ const StoredListCards = ({ book }) => {
     yearOfPublishing,
   } = book;
 
-  const navigate = useNavigate();
 
   return (
     <div className="card bg-base-100 border-2">
@@ -89,13 +89,12 @@ const StoredListCards = ({ book }) => {
               <RiUserStarLine className="text-[20px] mt-0.5 pr-1"></RiUserStarLine>
               Rating: {rating}
             </span>
-            <button
-              onClick={() => navigate(-1)}
+            <Link to={`/books/${category}/bookDetails/${bookId}`}
               className="btn btn-sm flex-grow w-full xs:w-[150px] bg-blue-500 h-10 hover:bg-black rounded-[20px] text-white"
             >
               <CiBoxList className="text-[18px] mt-0.5"></CiBoxList>
               View Details
-            </button>
+            </Link>
           </div>
         </div>
       </div>

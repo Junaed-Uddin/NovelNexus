@@ -8,7 +8,6 @@ import ReadPages from "./components/ReadPages/ReadPages";
 import About from "./components/About/About";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Contact from "./components/Contact/Contact";
-import Community from "./components/Community/Community";
 import MyLibrary from "./components/MyLibrary/MyLibrary";
 import Books from "./components/Books/Books";
 import BookDetails from "./components/BookDetails/BookDetails";

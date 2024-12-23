@@ -41,31 +41,35 @@ const ReadPages = () => {
   }, [bookData.books]);
 
   return (
-    <div className="max-w-6xl mx-auto mb-14">
+    <div className="max-w-6xl mx-auto flex flex-col min-h-screen mb-14">
       <h2 className="text-3xl font-semibold text-center text-blue-500 my-14">
         Read Books to Page Visual
       </h2>
-      {
-        displayGraphData.length? 
-      <div className="flex justify-center items-center">
-        <BarChart width={1000} height={450} data={displayGraphData}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="bookName"/>
-          <YAxis dataKey="pages"/>
-          <Bar
-            dataKey="pages"
-            fill="#8884d8"
-            shape={<TriangleBar />}
-            label={{ position: "top" }}
-          >
-            {displayGraphData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-            ))}
-          </Bar>
-        </BarChart>
-      </div>:
-      <p className="text-3xl text-red-500 text-center my-10">No data has been found in the Book list</p>
-      }
+      <div className="flex-grow">
+        {displayGraphData.length ? (
+          <div className="flex justify-center items-center">
+            <BarChart width={1000} height={450} data={displayGraphData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="bookName" />
+              <YAxis dataKey="pages" />
+              <Bar
+                dataKey="pages"
+                fill="#8884d8"
+                shape={<TriangleBar />}
+                label={{ position: "top" }}
+              >
+                {displayGraphData.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+                ))}
+              </Bar>
+            </BarChart>
+          </div>
+        ) : (
+          <p className="text-3xl text-red-500 text-center my-10">
+            No data has been found in the Book list
+          </p>
+        )}
+      </div>
     </div>
   );
 };
