@@ -11,22 +11,34 @@ const Header = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/my_library"}>
+        <NavLink
+          className={"font-semibold mt-2 xs:py-2 text-[15px]"}
+          to={"/my_library"}
+        >
           My Library
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/visualization"}>
+        <NavLink
+          className={"font-semibold mt-2 xs:py-2 text-[15px]"}
+          to={"/visualization"}
+        >
           Visualization
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/about"}>
+        <NavLink
+          className={"font-semibold mt-2 xs:py-2 text-[15px]"}
+          to={"/about"}
+        >
           About
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/contact"}>
+        <NavLink
+          className={"font-semibold mt-2 xs:py-2 text-[15px]"}
+          to={"/contact"}
+        >
           Contact
         </NavLink>
       </li>
@@ -35,9 +47,13 @@ const Header = () => {
 
   const button = (
     <>
-      <button className="btn btn-sm hover:bg-black rounded-md h-10 px-4 bg-blue-500 text-white">
-        Sign Up <MdAccountCircle className="text-lg mt-0.5"></MdAccountCircle>
-      </button>
+      <Link
+        onClick={(e) => e.preventDefault()}
+        className="flex items-center focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 active:bg-blue-700 active:shadow-inner transition duration-150 ease-in-out space-x-2 border-b-4 border-blue-700 hover:bg-blue-600 hover:text-white rounded-md h-10 px-4 bg-blue-500 text-white"
+      >
+        <span className="scale-90 font-semibold">Sign Up</span>
+        <MdAccountCircle className="text-lg mt-0.5"></MdAccountCircle>
+      </Link>
     </>
   );
 
