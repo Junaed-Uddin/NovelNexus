@@ -42,7 +42,7 @@ const Header = () => {
   );
 
   return (
-    <div className="flex justify-between items-center bg-gray-100 px-4 sm:px-10 py-5">
+    <div className="flex justify-between items-center bg-gray-100 px-4 sm:px-10 py-6">
       <div className="">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="pr-4 lg:hidden">
