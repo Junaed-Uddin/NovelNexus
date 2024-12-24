@@ -6,27 +6,27 @@ const Header = () => {
   const routes = (
     <>
       <li>
-        <NavLink className={"font-semibold text-[15px]"} to={"/"}>
+        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/"}>
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold text-[15px]"} to={"/my_library"}>
+        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/my_library"}>
           My Library
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold text-[15px]"} to={"/visualization"}>
+        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/visualization"}>
           Visualization
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold text-[15px]"} to={"/about"}>
+        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/about"}>
           About
         </NavLink>
       </li>
       <li>
-        <NavLink className={"font-semibold text-[15px]"} to={"/contact"}>
+        <NavLink className={"font-semibold mt-2 xs:py-2 text-[15px]"} to={"/contact"}>
           Contact
         </NavLink>
       </li>
@@ -40,6 +40,7 @@ const Header = () => {
       </button>
     </>
   );
+
   return (
     <div className="flex justify-between items-center bg-gray-100 px-4 sm:px-10 py-5">
       <div className="">
@@ -62,7 +63,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content space-y-2 bg-slate-100 rounded-box z-[1] mt-3 w-60 p-4 shadow"
+            className="menu menu-sm dropdown-content divide-y-2 divide-gray-300 divide-dotted space-y-2 bg-slate-100 rounded-box z-[1] mt-3 w-60 p-4 shadow"
           >
             {routes}
             <li className="flex xs:hidden">{button}</li>
