@@ -12,9 +12,9 @@ import {
 } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import auth from "../firebase/firebase.config";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-
+// eslint-disable-next-line react-refresh/only-export-components
 export const AuthContext = createContext(null);
 
 const AuthProvider = ({ children }) => {
@@ -32,7 +32,6 @@ const AuthProvider = ({ children }) => {
 
   // update user's profile
   const userUpdateProfile = (name, photoURL) => {
-    setLoading(true);
     return updateProfile(auth.currentUser, name, photoURL);
   };
 
@@ -103,7 +102,7 @@ const AuthProvider = ({ children }) => {
 };
 
 AuthProvider.propTypes = {
-  children: PropTypes.node
-}
+  children: PropTypes.node,
+};
 
 export default AuthProvider;
