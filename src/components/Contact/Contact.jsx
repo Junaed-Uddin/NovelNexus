@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="flex flex-col items-center justify-center">
           <img src={contact} alt="" className="w-full object-cover" />
         </div>
-        <form noValidate="" className="space-y-6">
+        <form className="space-y-4">
           <div>
             <label htmlFor="name" className="text-sm">
               Full name
@@ -23,7 +23,7 @@ const Contact = () => {
             <input
               id="name"
               type="text"
-              className="w-full mt-2 border border-amber-500 p-3 rounded input-bordered"
+              className="w-full mt-2 border border-blue-500 p-3 rounded input-bordered"
             />
           </div>
           <div>
@@ -33,7 +33,7 @@ const Contact = () => {
             <input
               id="email"
               type="email"
-              className="border mt-2 border-amber-500 w-full p-3 rounded input-bordered"
+              className="border mt-2 border-blue-500 w-full p-3 rounded input-bordered"
             />
           </div>
           <div>
@@ -43,7 +43,7 @@ const Contact = () => {
             <textarea
               id="message"
               rows="3"
-              className="w-full mt-2 p-3 border border-amber-500 rounded input-bordered"
+              className="w-full mt-2 p-3 border border-blue-500 rounded input-bordered"
             ></textarea>
           </div>
           <button
