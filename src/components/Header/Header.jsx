@@ -1,6 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import { MdAccountCircle } from "react-icons/md";
 import "./Header.css";
+import { useContext } from "react";
+import { AuthContext } from "../../Context/AuthProvider";
+import { toast } from "react-toastify";
+import { FaUserCircle } from "react-icons/fa";
+import { Tooltip } from "react-tooltip";
 
 const Header = () => {
   const routes = (
@@ -48,14 +53,29 @@ const Header = () => {
   const button = (
     <>
       <Link
-        onClick={(e) => e.preventDefault()}
+        to={`/login`}
         className="flex items-center focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 active:bg-blue-700 active:shadow-inner transition duration-150 ease-in-out space-x-2 border-b-4 border-blue-700 hover:bg-blue-600 hover:text-white rounded-md h-10 px-4 bg-blue-500 text-white"
       >
-        <span className="scale-90 font-semibold">Sign Up</span>
+        <button className="scale-90 font-semibold">Login</button>
         <MdAccountCircle className="text-lg mt-0.5"></MdAccountCircle>
       </Link>
     </>
   );
+
+  // context
+  const { user, logOut } = useContext(AuthContext);
+
+  // handle signout
+  const handleSignOut = () => {
+    logOut()
+      .then(() => {
+        toast.success(`${user.displayName} logout successfully`);
+      })
+      .catch((error) => {
+        console.error(error);
+        toast.error(error.message);
+      });
+  };
 
   return (
     <div className="flex justify-between items-center bg-gray-100 px-4 sm:px-10 py-6">
@@ -96,7 +116,42 @@ const Header = () => {
       <div className="hidden lg:flex">
         <ul className="menu menu-horizontal space-x-1">{routes}</ul>
       </div>
-      <div className="hidden xs:flex">{button}</div>
+      {user ? (
+        <div className="dropdown dropdown-end">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost btn-circle avatar"
+          >
+            <div
+              data-tooltip-id="my-tooltip"
+              data-tooltip-content={user.displayName}
+              className="w-14 rounded-full"
+            >
+              {
+                user.photoURL?
+                <img alt="user-image" src={user?.photoURL} />:
+                <FaUserCircle className="text-[47px]"></FaUserCircle>
+              }
+            </div>
+          </div>
+          <Tooltip id="my-tooltip" place="left"/>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1050] mt-3 w-40 p-2 shadow"
+          >
+            <li>
+              <button className="justify-between">Profile</button>
+            </li>
+            <li>
+              <button onClick={handleSignOut}>Logout</button>
+
+            </li>
+          </ul>
+        </div>
+      ) : (
+        <div className="hidden xs:flex">{button}</div>
+      )}
     </div>
   );
 };

@@ -53,7 +53,7 @@ const About = () => {
             />
           </div>
           {/* stats  */}
-          <div className="card shadow-xl border shadow-violet-200 grid grid-cols-1 p-5 sm:grid-cols-2 gap-5">
+          <div className="card shadow-xl border-t-2 border-violet-500 shadow-violet-200 grid grid-cols-1 p-5 sm:grid-cols-2 gap-5">
             {/* years  */}
             <div className="flex px-6 flex-col py-5 bg-gray-300 bg-opacity-20 rounded-2xl justify-center items-start space-y-2">
               <h1 className="text-2xl sm:text-4xl font-bold">5</h1>

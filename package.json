@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^11.1.0",
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
     "localforage": "^1.10.0",
@@ -23,6 +24,7 @@
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^7.0.2",
     "react-toastify": "^11.0.2",
+    "react-tooltip": "^5.28.0",
     "recharts": "^2.15.0",
     "sass": "^1.83.0",
     "sort-by": "^0.0.2",

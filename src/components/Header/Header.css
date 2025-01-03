@@ -1,8 +1,8 @@
-li a.active{
-    color:white !important;
-    padding: 8px 15px;
+li a.active {
+  color: white !important;
+  padding: 8px 15px;
 }
 
-li a:hover{
-    color: blue;
+li a:hover {
+  color: blue;
 }
