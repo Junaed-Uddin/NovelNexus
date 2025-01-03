@@ -13,9 +13,11 @@ const About = () => {
             </h1>
           </div>
           <div>
-            <p className="indent-8 pt-5">
-              <span className="text-lg font-bold">At NovelNexus</span>
-              {`, we believe in the power of storytelling to
+            <p
+              className="pt-5 first-letter:text-7xl first-letter:font-bold 
+            first-letter:text-black first-letter:mr-2 first-letter:float-left"
+            >
+              {`NovelNexus, we believe in the power of storytelling to
             inspire, educate, and entertain. Whether you're a casual reader or a
             passionate book lover, our carefully curated selection of books
             offers something for everyone.`}
@@ -35,7 +37,10 @@ const About = () => {
               our audience through author interviews, book clubs, and reading
               events to help cultivate a deeper connection with literature.
             </p>
-            <p className="mt-5 indent-8">
+            <p
+              className="mt-5 first-letter:text-7xl first-letter:font-bold 
+            first-letter:text-black first-letter:mr-2 first-letter:float-left"
+            >
               Thank you for choosing us as your trusted source for all things
               books. We’re here to help you discover new worlds, one page at a
               time.
