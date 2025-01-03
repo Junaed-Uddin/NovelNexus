@@ -160,6 +160,12 @@ const Register = () => {
         toast.error(error.message);
         setErrorMsg("Email already in-use");
       });
+
+      // input reset
+      e.target.name.value = "";
+      e.target.email.value = "";
+      e.target.photo.value = "";
+      e.target.password.value = "";
   };
 
   return (

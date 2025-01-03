@@ -141,7 +141,7 @@ const Header = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1050] mt-3 w-40 p-2 shadow"
           >
             <li>
-              <button className="justify-between">Profile</button>
+              <Link to={`/profile`} className="justify-between">Profile</Link>
             </li>
             <li>
               <button onClick={handleSignOut}>Logout</button>
