@@ -19,7 +19,6 @@ const Book = ({ book }) => {
   } = book;
 
   return (
-    <div>
       <div className="card h-full shadow-blue-100 flex flex-col mt-7 justify-between bg-base-100 shadow-xl border-t-4 border-blue-500">
         <div className="bg-gray-200 bg-opacity-45 rounded-2xl m-4">
           <Link to={`/books/${category}/bookDetails/${bookId}`}>
@@ -88,7 +87,6 @@ const Book = ({ book }) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

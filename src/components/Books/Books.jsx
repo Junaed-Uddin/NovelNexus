@@ -53,8 +53,8 @@ const Books = () => {
   };
 
   return (
-    <div className="mt-20 max-w-6xl mx-auto mb-20 divide-y-2 divide-blue-200 divide-dashed sm:px-4 md:px-0">
-      <div className="flex justify-between items-center pb-7">
+    <div className="mt-20 max-w-6xl mx-auto mb-20 divide-y-2 divide-blue-200 divide-dashed px-4 xl:px-0">
+      <div className="flex flex-col xs:flex-row space-y-4 xs:space-y-0 justify-between items-center pb-7">
         <h2 className="text-3xl text-blue-400 font-semibold text-start">
           {category_name}: {showDisplay?.length}
         </h2>
@@ -69,7 +69,7 @@ const Books = () => {
         </div>
       </div>
       {showDisplay?.length ? (
-        <div className="grid grid-cols-1 pb-5 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div className="grid grid-cols-1 pb-5 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
           {showDisplay?.map((book) => (
             <Book key={book.bookId} book={book}></Book>
           ))}
