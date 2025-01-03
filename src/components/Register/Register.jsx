@@ -85,11 +85,10 @@ const Register = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
-        toast.success("Registration successfully", {
-          position: "top-right",
-          autoClose: 1500,
-          closeOnClick: true,
-        });
+        toast.success("Registration successfully");
+        setTimeout(() => {
+          navigate(location?.state ? location.state : "/");
+        }, 1500);
       })
       .catch((error) => {
         console.error(error.message);
@@ -104,6 +103,9 @@ const Register = () => {
         const user = result.user;
         console.log(user);
         toast.success("Registration successfully");
+        setTimeout(() => {
+          navigate(location?.state ? location.state : "/");
+        }, 1500);
       })
       .catch((error) => {
         console.error(error.message);
@@ -151,7 +153,7 @@ const Register = () => {
 
         // redirect home page
         setTimeout(() => {
-          navigate("/");
+          navigate(location?.state || "/");
         }, 3000);
       })
       .catch((error) => {
@@ -161,11 +163,11 @@ const Register = () => {
         setErrorMsg("Email already in-use");
       });
 
-      // input reset
-      e.target.name.value = "";
-      e.target.email.value = "";
-      e.target.photo.value = "";
-      e.target.password.value = "";
+    // input reset
+    e.target.name.value = "";
+    e.target.email.value = "";
+    e.target.photo.value = "";
+    e.target.password.value = "";
   };
 
   return (

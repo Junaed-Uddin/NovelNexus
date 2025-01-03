@@ -1,7 +1,7 @@
 import { useContext, useRef, useState } from "react";
 import { FaGithub, FaXmark } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
 import {
   IoIosCheckmarkCircleOutline,
@@ -20,6 +20,8 @@ const Login = () => {
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
   const [loader, setLoader] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   // login handler
   const handleSignIn = (e) => {
@@ -28,6 +30,7 @@ const Login = () => {
     const email = emailRef.current.value;
     const password = e.target.password.value;
 
+    // reset error & success message
     setErrorMsg("");
     setSuccessMsg("");
 
@@ -39,6 +42,10 @@ const Login = () => {
         toast.success("Login Successful");
         setSuccessMsg("Login Successful");
         setLoader(false);
+        // page redirect to the login page
+        setTimeout(() => {
+          navigate(location?.state ? location.state : "/");
+        }, 1500);
       })
       .catch((error) => {
         console.error(error.message);
@@ -47,9 +54,9 @@ const Login = () => {
         setLoader(false);
       });
 
-      // input reset
-      emailRef.current.value = "";
-      e.target.password.value = "";
+    // input reset
+    emailRef.current.value = "";
+    e.target.password.value = "";
   };
 
   // handle forgot password
@@ -74,6 +81,9 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         toast.success("Successfully login");
+        setTimeout(() => {
+          navigate(location?.state ? location.state : "/");
+        }, 1500);
       })
       .catch((error) => {
         console.error(error.message);
@@ -88,6 +98,9 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         toast.success("Login Successfully");
+        setTimeout(() => {
+          navigate(location?.state ? location.state : "/");
+        }, 1500);
       })
       .catch((error) => {
         console.error(error.message);

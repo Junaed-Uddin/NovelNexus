@@ -11,6 +11,7 @@ import BookDetails from "../components/BookDetails/BookDetails";
 import Register from "../components/Register/Register";
 import Login from "../components/Login/Login";
 import Profile from "../components/Profile/Profile";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/profile",
-        element: <Profile></Profile>
+        element: <PrivateRoute><Profile></Profile></PrivateRoute>
       },
       {
         path: "/books/:category_name",

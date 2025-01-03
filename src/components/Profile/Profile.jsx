@@ -25,7 +25,7 @@ const Profile = () => {
     })
       .then(() => {
         toast.success("Profile Updated");
-        setSuccessMsg("Profile updated");
+        setSuccessMsg("Profile Updated");
         setLoader(false);
       })
       .catch((error) => {
@@ -42,7 +42,7 @@ const Profile = () => {
       <div className="w-full max-w-md p-8 space-y-3 rounded-xl shadow-xl shadow-violet-200 bg-gray-50 text-gray-800">
         <form onSubmit={handleProfile} className="space-y-4">
           <div className="space-y-1 text-sm">
-            <label htmlFor="name" className="block text-gray-600">
+            <label htmlFor="name" className="block text-black">
               Full Name
             </label>
             <input
@@ -54,7 +54,7 @@ const Profile = () => {
             />
           </div>
           <div className="space-y-1 text-sm">
-            <label htmlFor="email" className="block text-gray-600">
+            <label htmlFor="email" className="block text-black">
               Email
             </label>
             <input
@@ -67,7 +67,7 @@ const Profile = () => {
             />
           </div>
           <div className="space-y-1 text-sm">
-            <label htmlFor="photoURL" className="block text-gray-600">
+            <label htmlFor="photoURL" className="block text-black">
               Photo URL
             </label>
             <input
